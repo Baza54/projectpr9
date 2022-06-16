@@ -42,11 +42,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteY="97dp"
-        tools:layout_editor_absoluteX="30dp">
+        tools:layout_editor_absoluteX="30dp"
+        tools:ignore="MissingConstraints">
 
-      <TableRow
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
+
 
       <ImageView
           android:id="@+id/imageView3"
@@ -133,7 +132,8 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       tools:layout_editor_absoluteY="300dp"
-      tools:layout_editor_absoluteX="30dp">
+      tools:layout_editor_absoluteX="30dp"
+      tools:ignore="MissingConstraints">
     >
 
     <TableRow
@@ -232,11 +232,11 @@
       android:text="Оплатить покупку"
       android:textAppearance="@style/TextAppearance.AppCompat.Body2"
       tools:layout_editor_absoluteX="100dp"
-      tools:layout_editor_absoluteY="700dp"
+      tools:layout_editor_absoluteY="600dp"
       android:textColor="@color/black"
       android:textSize="20dp"
-      android:textStyle="bold"/>
+      android:textStyle="bold"
+      tools:ignore="MissingConstraints" />
 
 
-</LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
